@@ -1,0 +1,149 @@
+#Background {
+    /* position: absolute; */
+    height: 320px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+#discover {
+    position: absolute;
+    right: 43%;
+    top: 45%;
+    border: 1px solid #FFFFFF;
+    padding-left: 41px;
+    padding-right: 38px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+#furniture {
+    position: absolute;
+    width: 807px;
+    height: 77px;
+    left: 23%;
+    top: 262px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    /* or 142% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+#blackbox {
+    position: absolute;
+    right: 1096 px;
+    top: 645px;
+
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 31px;
+    padding-right: 30px;
+
+
+    background: #050505;
+    border-radius: 1px 1px 0px 0px;
+}
+
+#rect {
+    position: absolute;
+    width: 1440px;
+    height: 155px;
+    left: 0%;
+    right: 0%;
+    top: 705px;
+
+    background: #F7F7F7;
+    border-radius: 0px;
+}
+
+.small_icon {
+    position: absolute;
+    top: 756px;
+}
+
+#car {
+    left: 69px;
+}
+
+#reward {
+    left: 325px;
+}
+
+#tree {
+    left: 616px;
+}
+
+#crafted {
+    left: 862px;
+}
+
+.cube {
+    /* height: 449px; */
+    /* width: 349px; */
+    height: 360px;
+    width: 320px;
+}
+
+.backgraund_for_article {
+    height: 657px;
+    width: 1440px;
+    background: #F7F7F7;
+    border-radius: 0px;
+}
+
+.pictures {
+    position: absolute;
+    width: 960px;
+    height: 542px;
+}
+
+#cloe {
+    position: relative;
+    right: 0px;
+    top: 115px;
+    left: 480px;
+}
+
+.name_item {
+    position: relative;
+    width: 67px;
+    height: 56px;
+    right: 365px;
+    top: 163px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 56px;
+    /* identical to box height, or 170% */
+
+    /* text-align: right; */
+
+    color: #000000;
+}

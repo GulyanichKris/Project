@@ -1,0 +1,268 @@
+/* Устанавливаем фон по умолчанию */
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    color: #999999;
+    ;
+
+}
+
+/* Посещенные ссылки остаются черного цвета */
+a:visited {
+    color: black;
+}
+
+/*  */
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+[class*="__name"] {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #999999;
+
+}
+
+[class*="__executor"] {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* Настройки для Header */
+.header__container {
+    display: flex;
+    max-width: 1200px;
+    height: 90px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.header__logo {
+    width: 134.81px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    /* width: 100%; */
+
+}
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu_link {
+    font-size: 14px;
+    line-height: 2.4;
+    text-decoration: none;
+}
+
+.main {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 auto;
+}
+
+/* =========Main======== */
+/* =========Japan First article======== */
+
+.japan {
+    height: 472.5px;
+    top: 150px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 60px 0px 35px 0px;
+}
+
+.japan__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.japan__image {
+    flex: 0 1 60%;
+    /* width: 721px; */
+}
+
+.japan__content {
+    flex: 0 1 40%;
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+
+.block-text__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* or 117% */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.block-text__text {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #666666;
+
+    padding-top: 27px;
+    padding-right: 11px;
+}
+
+.block-text__executor {
+    padding-top: 28px;
+}
+
+
+
+/* ========Posts======== */
+
+.posts {
+    height: 963px;
+    /* top: 35px; */
+    padding: 0px 0px 65px 0px;
+    border-bottom: 1px solid #E6E6E6;
+    /* box-sizing: border-box; */
+}
+
+.posts__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    height: 963px;
+
+}
+
+.article__components {
+    width: 405px;
+    height: 481px;
+    flex: 0 1 33.333%;
+    /* flex: 0 1 auto; */
+    box-sizing: border-box;
+    align-items: stretch;
+    padding-left: 5px;
+}
+
+.posts__image {
+    margin-top: 25px;
+}
+
+.posts__name {
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.posts__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+    margin-right: 40px;
+    margin-top: 18px;
+    /* margin-bottom: 15px; */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+/* ==========Footer============== */
+
+.footer {
+    height: 172px;
+    background-color: #141414;
+}
+
+.footer__container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+
+}
+
+.footer__logo {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex-direction: row;
+
+    height: 22px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.img__logo {
+    width: 135px;
+    height: 17px;
+    /* flex: 0 1 50%; */
+}
+
+.content__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #666666;
+
+    flex: 0 1 auto;
+    margin-left: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
