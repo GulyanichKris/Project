@@ -12,6 +12,10 @@ a:visited {
     color: black;
 }
 
+.article__components:hover {
+    border: 1px solid green;
+}
+
 /*  */
 [class*="__container"] {
     max-width: 1200px;
