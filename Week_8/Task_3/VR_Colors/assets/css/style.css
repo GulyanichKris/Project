@@ -1,0 +1,24 @@
+/* Fonts */
+@font-face {
+    font-family: 'Intro Regular';
+    src: url(/Week_8/Task_3/VR_Colors/assets/css/fonts/Intro_Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(/Week_8/Task_3/VR_Colors/assets/css/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/Week_8/Task_3/VR_Colors/assets/css/fonts/Helvetica-Font/Helvetica.ttf);
+    src: url(/Week_8/Task_3/VR_Colors/assets/css/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
+}
+
+
+
+
+/* Header */
+
+
+
